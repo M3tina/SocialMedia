@@ -1,0 +1,28 @@
+#question-tab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+#question-btn {
+    height: 120px;
+    width: 300px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#question-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
